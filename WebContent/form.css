@@ -1,0 +1,264 @@
+@charset "UTF-8";
+
+body {
+	background-color: #f1f1f1;
+}
+
+* {
+	margin: 0;
+}
+/*---------------------tweet--------------------------------------*/
+.box {
+	font-family: arial;
+	color: #000;
+	margin: 150px auto;
+	padding: 20px;
+	width: 500px;
+	height: 240px;
+	background: #fff;
+	border-radius: 30px;
+	box-shadow: 0px 0px 7.5px #888888;
+}
+
+textarea {
+	resize: none;
+}
+
+.botton {
+	margin-top: 5%;
+	text-align: center;
+}
+
+.botton input {
+	border: none;
+	border-radius: 8px;
+	background-color: #00aaff;
+	color: white;
+}
+
+.botton input:hover {
+	background-color: royalblue;
+}
+
+.tweet {
+	padding:10px;
+	margin: 1px auto;
+	border-radius:10px;
+	box-shadow: 0px 0px 2px #888888;
+	background-color: white;
+	width: 50%;
+}
+
+.tweet p {
+	margin: 1px 0px;
+}
+.nowinfo{
+	 border-radius:10px;
+    margin-top:1%;
+    margin-left:1%;
+    padding:1%;
+    width:150px;
+    background-color:white;
+}
+.nowinfo p{
+    margin-bottom:3%;
+}
+.nowinfo a{
+    text-decoration:none;
+    background-color:red;
+    color:white;
+    padding:2% 10%;
+    border-radius:8px;
+    font-size:1rem;
+}
+.nowinfo a:hover{
+    background-color:coral;
+}
+
+.ourdata{
+	margin: 1px auto;
+	padding:1%;
+	width:20%;
+	background-color:white;
+	border-radius:8px;
+}
+.ourdata p{
+	text-align: center;
+}
+
+
+/*----------------------entry-----------------------------------*/
+.entry {
+	border-radius: 20px;
+	font-family: arial;
+	margin: 10% auto;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	background-color: white;
+	text-align: center;
+	width: 25%;
+	height: 50%;
+}
+
+.name {
+	margin: 12%;
+}
+
+.name input {
+	height: 35px;
+	width: 70%;
+}
+
+.password {
+	margin: 12%;
+}
+
+.password input {
+	height: 35px;
+	width: 70%;
+}
+
+.entry input[type="submit"] {
+	border: none;
+	border-radius: 8px;
+	background-color: #00aaff;
+	color: white;
+	height: 50px;
+	width: 200px;
+}
+
+.entry input[type="submit"]:hover {
+	background-color: royalblue;
+}
+/*-----------------------login--------------------------------------*/
+.login {
+	border-radius: 20px;
+	font-family: arial;
+	margin: 10% auto;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	background-color: white;
+	text-align: center;
+	width: 25%;
+	height: 50%;
+}
+
+.name {
+	margin: 12%;
+}
+
+.name input {
+	height: 35px;
+	width: 70%;
+}
+
+.password {
+	margin: 12%;
+}
+
+.password input {
+	height: 35px;
+	width: 70%;
+}
+
+.login input[type="submit"] {
+	border: none;
+	border-radius: 8px;
+	background-color: #00aaff;
+	color: white;
+	height: 50px;
+	width: 200px;
+}
+
+.login input[type="submit"]:hover {
+	background-color: royalblue;
+}
+/*------------------topページ------------------------*/
+.home {
+	position: relative;
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-image: url(/tweet_a/basketgoal.jpg);
+	min-height: 65vh;
+}
+
+.home::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(31, 124, 230, 0.555);
+}
+
+.home h1 {
+	padding-top: 12%;
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 5rem;
+}
+
+.home p {
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 1.5rem;
+}
+
+.whatis {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin: 7% auto;
+	border-radius: 20px;
+	text-align: center;
+	background-color: white;
+	height: 200px;
+	width: 700px;
+}
+
+.whatis p {
+	padding: 3% 20%;
+}
+
+.tologin {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin: 7% auto;
+	border-radius: 20px;
+	text-align: center;
+	background-color: white;
+	height: 200px;
+	width: 700px;
+}
+
+.tologin h1 {
+	margin-bottom: 7%;
+}
+
+.tologin a {
+	text-decoration: none;
+	background-color: #00aaff;
+	color: white;
+	padding: 2% 10%;
+	border-radius: 8px;
+	font-size: 2rem;
+}
+
+.tologin a:hover {
+	background-color: royalblue;
+}
+
+/*-------------------footer----------------*/
+footer {
+	background-color: black;
+	text-align: center;
+	padding: 26px 0;
+}
+
+footer p {
+	color: #fff;
+	font-size: 0.875rem;
+}
